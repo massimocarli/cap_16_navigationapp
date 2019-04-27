@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">NavigationApp</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="soccer_news">SOCCER NEWS</string>
+  <string name="volley_news">VOLLEY NEWS</string>
+  <string name="basket_news">BASKET NEWS</string>
+  <string name="soccer">Soccer</string>
+  <string name="basket">Basket</string>
+  <string name="volley">Volley</string>
+  <string name="basket_news_detail">BASKET NEWS DETAIL!</string>
+  <string name="soccer_news_detail">SOCCER NEWS DETAIL!!</string>
+</resources>

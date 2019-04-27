@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_graph"
+            app:startDestination="@id/soccerNews">
+  <fragment android:id="@+id/soccerNews"
+            android:label="Soccer News"
+            android:name="uk.co.massimocarli.navigationapp.SoccerFragment"
+            tools:layout="@layout/fragment_soccer"/>
+  <fragment android:id="@+id/basketNews"
+            android:name="uk.co.massimocarli.navigationapp.BasketFragment"
+            android:label="Basket News"
+            tools:layout="@layout/fragment_basket"/>
+  <fragment android:id="@+id/volleyNews"
+            android:name="uk.co.massimocarli.navigationapp.VolleyFragment"
+            android:label="Volley News"
+            tools:layout="@layout/fragment_volley"/>
+</navigation>
